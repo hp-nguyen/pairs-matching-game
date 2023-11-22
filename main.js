@@ -1,6 +1,6 @@
-import { gameBoard, initGame } from './gameController.js';
-import { shuffleEntities } from './tween.js';
+import gameItems from './assets/itemList.js';
+import GameController from './gameController.js';
 
-initGame();
-const cardEntities = gameBoard.children;
-shuffleEntities(gameBoard ,cardEntities)
+
+const gameController = new GameController(gameItems)
+gameController.initGame()
