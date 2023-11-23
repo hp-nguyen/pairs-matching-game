@@ -43,7 +43,7 @@ class GameController {
     this.dealCards();
     setTimeout(() => {
       this.isPlaying = true;
-    }, 4500);
+    }, 3500);
   }
   handleClickCard(e) {
     if (!this.isPlaying || this.isDisableBoard) return;
