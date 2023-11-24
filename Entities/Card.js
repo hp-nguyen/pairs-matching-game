@@ -57,8 +57,7 @@ class Card extends Node {
     gsap.to(this.element, {
       duration: 2,
       delay: 1,
-      scaleX: 1.5,
-      scaleY: 1.5,
+      scale: 1.5,
       ease: 'power2.easeInOut',
     });
     gsap.to(this.element, {
